@@ -1,11 +1,11 @@
 import React from 'react'
-import aboutlayer from '../assets/images/AboutLayer.webp'
-import toktreed from '../assets/images/toktree-d.webp'
-import circletok from "../assets/images/circle-tok.webp";
-import colorbox from "../assets/images/box-color.webp";
-import toklayer from "../assets/images/tok-layer.webp";
+import aboutlayer from '../assets/webps/AboutLayer.webp'
+import toktreed from '../assets/webps/toktree-d.webp'
+import circletok from "../assets/webps/circle-tok.webp";
+import colorbox from "../assets/webps/box-color.webp";
+import toklayer from "../assets/webps/tok-layer.webp";
 import tokshadow from '../assets/images/tok-shadow.png';
-import TokenDino from '../assets/images/tok-tree-2.webp';
+import TokenDino from '../assets/webps/tok-tree-2.webp';
 
 const Tokenomics = () => {
   return (

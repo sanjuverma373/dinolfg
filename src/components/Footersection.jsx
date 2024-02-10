@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import { Arrow1, Arrow2, Ftdiscord, Ftinsta, Fttwitter } from './Icons'
-import footerbg from '../assets/images/footerbg.webp'
-import layerb from '../assets/images/roadmaplayer-b.webp'
-import footerd from '../assets/images/footer-d.webp'
+import footerbg from '../assets/webps/footerbg.webp'
+import layerb from '../assets/webps/roadmaplayer-b.webp'
+import footerd from '../assets/webps/footer-d.webp'
 
 const Footersection = () => {
         const [openAccordion, setOpenAccordion] = useState(null);
@@ -46,7 +46,7 @@ const Footersection = () => {
                                                 <div className="accordion-item py-[22px] pr-[20px] sm:pr-[53px] pl-[26px] bg-[#09655A]" key={index}>
                                                         <div onClick={() => toggleAccordion(index)} className="flex justify-between items-center">
                                                                 <div className="accordion-title font-Balsamiq text-[13px] sm:text-[16px] md:text-[20px] text-start font-bold text-white w-full justify-between" >{item.title}</div>
-                                                                <p className="text-white font-sans text-4xl cursor-pointer bg-white w-[39px] h-[35px] rounded-full flex items-center justify-center">{openAccordion === index ? (<Arrow2/>) :(<Arrow1/>)  }</p>
+                                                                <p className="text-white font-sans text-4xl cursor-pointer bg-white w-[30px] sm:w-[39px] h-[26px] sm:h-[37px] rounded-full flex items-center justify-center">{openAccordion === index ? (<Arrow2/>) :(<Arrow1/>)  }</p>
                                                         </div>
                                                         <div className={`accordion-content text-[11px] sm:text-[14px] md:text-[16px] font-medium text-white ${openAccordion === index ? "open" : ""}`} >
                                                                 {item.content}

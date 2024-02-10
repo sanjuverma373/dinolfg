@@ -11,7 +11,7 @@ import Backtop from './components/Backtop';
 
 function App() {
   return (
-    <div>
+    <div className=' bg-[#0A4740]'>
       <Preloadersection />
       <Headersection />
       <Aboutdinosection />

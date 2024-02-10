@@ -1,10 +1,9 @@
 import React from 'react'
-import helicopterimg from '../assets/images/helicopterimg.webp'
-import timeline from '../assets/images/timeline.webp'
-import greentree from '../assets/images/timelinegreentree.webp'
-import grasst from '../assets/images/gress-t.webp'
-import dinatree from '../assets/images/tree-dina.webp'
-import layert from '../assets/images/roadmaplayer-t.webp'
+import helicopterimg from '../assets/webps/helicopterimg.webp'
+import timeline from '../assets/webps/timeline.webp'
+import greentree from '../assets/webps/timelinegreentree.webp'
+import grasst from '../assets/webps/gress-t.webp'
+import dinatree from '../assets/webps/tree-dina.webp'
 
 
 const Roadmapsection = () => {

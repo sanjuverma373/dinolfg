@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import backtop from '../assets/images/backtop.webp'
+import backtop from '../assets/webps/backtop.webp'
 
 const Backtop = () => {
         const [isVisible, setIsVisible] = useState(false);

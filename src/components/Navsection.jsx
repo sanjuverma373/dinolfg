@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
 import { Discord, Insta, Twitter } from './Icons';
 
 const Navsection = () => {
@@ -37,7 +36,7 @@ const Navsection = () => {
                                                                                 <Insta />
                                                                         </span>
                                                                 </span>
-                                                                <span className='bg-[url(./assets//images/nav-btn-bg.webp)] bg-no-repeat bg-cover bg-center w-[138px] h-[54.57px] flex items-center justify-center cursor-pointer group mt-7 '>
+                                                                <span className='bg-[url(./assets//webps/nav-btn-bg.webp)] bg-no-repeat bg-cover bg-center w-[138px] h-[54.57px] flex items-center justify-center cursor-pointer group mt-7 '>
                                                                         <h2 className=' font-Chewy pb-[10px] text-[18px] font-normal leading-[23px] group-hover:text-white duration-300 '>Join Now</h2>
                                                                 </span>
                                                         </span></li>
@@ -55,7 +54,7 @@ const Navsection = () => {
                                                                                 <Insta />
                                                                         </span>
                                                                 </div>
-                                                                <div className='bg-[url(./assets//images/nav-btn-bg.webp)] bg-no-repeat bg-cover bg-center w-[138px] h-[54.57px] flex items-center justify-center cursor-pointer group '>
+                                                                <div className='bg-[url(./assets//webps/nav-btn-bg.webp)] bg-no-repeat bg-cover bg-center w-[138px] h-[54.57px] flex items-center justify-center cursor-pointer group '>
                                                                         <h2 className=' font-Chewy pb-[10px] text-[18px] font-normal leading-[23px] group-hover:text-white duration-300 '>Join Now</h2>
                                                                 </div>
                                                         </div>
