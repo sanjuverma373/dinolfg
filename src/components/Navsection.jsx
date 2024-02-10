@@ -18,7 +18,9 @@ const Navsection = () => {
                         <div className=' max-w-[1132px] mx-auto px-3 w-full pt-7'>
                                 <div className=' bg-white rounded-[61px] border-b-4 pt-2 pb-1 pl-6 pr-[7px] border-black'>
                                         <div className=' flex items-center justify-between relative'>
-                                                <h2 className=' cursor-pointer drop-shadow-[0px_1.337px_0px_#000] font-dino text-[39.13px] font-normal leading-[37.13px] text-[#FBA11D]'>D<span className=' text-[#23AAAC]'>i</span><span className=' text-[#D45B07]'>n</span><span className='text-[#8EC627]'>o</span><span className='text-[#FCCA2B]'>L</span><span className='text-[#8F78D2]'>F</span><span className=' text-[#8EC627]'>G</span></h2>
+                                                <a href="">
+                                                        <h2 className=' cursor-pointer drop-shadow-[0px_1.337px_0px_#000] font-dino text-[39.13px] font-normal leading-[37.13px] text-[#FBA11D]'>D<span className=' text-[#23AAAC]'>i</span><span className=' text-[#D45B07]'>n</span><span className='text-[#8EC627]'>o</span><span className='text-[#FCCA2B]'>L</span><span className='text-[#8F78D2]'>F</span><span className=' text-[#8EC627]'>G</span></h2>
+                                                </a>
                                                 <ul className={` ${first ? "left-0" : "left-[-100%]"} flex items-center gap-[28px] duration-300 mobileview2  max-lg:justify-center max-lg:flex-col max-lg:text-black max-lg:w-full max-lg:h-full  max-lg:fixed max-lg:top-0 max-lg:z-20 max-lg:bg-white`}>
                                                         <li onClick={() => setfirst(false)} className=' cursor-pointer transition after:duration-500 after:w-0 hover:after:w-full hover:after:left-0 after:absolute relative after:right-0  after:-bottom-[1px] after:rounded-xl  after:h-[2px] after:bg-black font-Chewy font-normal text-[18px] leading-[23.52px]'><a className='' href="#about">About</a></li>
                                                         <li onClick={() => setfirst(false)} className='cursor-pointer transition after:duration-500 after:w-0 hover:after:w-full hover:after:left-0 after:absolute relative after:right-0 after:-bottom-[1px] after:rounded-xl after:h-[2px] after:bg-black font-Chewy font-normal text-[18px] leading-[23.52px]'><a className='' href="#tokenomic">Tokenomic</a></li>
@@ -36,7 +38,7 @@ const Navsection = () => {
                                                                                 <Insta />
                                                                         </span>
                                                                 </span>
-                                                                <span className='bg-[url(./assets//webps/nav-btn-bg.webp)] bg-no-repeat bg-cover bg-center w-[138px] h-[54.57px] flex items-center justify-center cursor-pointer group mt-7 '>
+                                                                <span className='bg-[url(./assets//webps/nav-btn-bg.webp)] bg-no-repeat bg-cover bg-center w-[138px] h-[54.57px] flex items-center justify-center cursor-pointer group mt-7 duration-300 hover:scale-95 '>
                                                                         <h2 className=' font-Chewy pb-[10px] text-[18px] font-normal leading-[23px] group-hover:text-white duration-300 '>Join Now</h2>
                                                                 </span>
                                                         </span></li>
@@ -54,7 +56,7 @@ const Navsection = () => {
                                                                                 <Insta />
                                                                         </span>
                                                                 </div>
-                                                                <div className='bg-[url(./assets//webps/nav-btn-bg.webp)] bg-no-repeat bg-cover bg-center w-[138px] h-[54.57px] flex items-center justify-center cursor-pointer group '>
+                                                                <div className='bg-[url(./assets//webps/nav-btn-bg.webp)] bg-no-repeat bg-cover bg-center w-[138px] h-[54.57px] flex items-center justify-center cursor-pointer group duration-300 hover:scale-95 '>
                                                                         <h2 className=' font-Chewy pb-[10px] text-[18px] font-normal leading-[23px] group-hover:text-white duration-300 '>Join Now</h2>
                                                                 </div>
                                                         </div>
