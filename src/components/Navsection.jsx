@@ -14,11 +14,11 @@ const Navsection = () => {
 
         { first ? document.body.classList.add("overflow-hidden") : document.body.classList.remove("overflow-hidden") }
         return (
-                <div>
+                <>
                         <div className=' max-w-[1132px] mx-auto px-3 w-full pt-7'>
                                 <div className=' bg-white rounded-[61px] border-b-4 pt-2 pb-1 pl-6 pr-[7px] border-black'>
                                         <div className=' flex items-center justify-between relative'>
-                                                <a href="">
+                                                <a href="#">
                                                         <h2 className=' cursor-pointer drop-shadow-[0px_1.337px_0px_#000] font-dino text-[39.13px] font-normal leading-[37.13px] text-[#FBA11D]'>D<span className=' text-[#23AAAC]'>i</span><span className=' text-[#D45B07]'>n</span><span className='text-[#8EC627]'>o</span><span className='text-[#FCCA2B]'>L</span><span className='text-[#8F78D2]'>F</span><span className=' text-[#8EC627]'>G</span></h2>
                                                 </a>
                                                 <ul className={` ${first ? "left-0" : "left-[-100%]"} flex items-center gap-[28px] duration-300 mobileview2  max-lg:justify-center max-lg:flex-col max-lg:text-black max-lg:w-full max-lg:h-full  max-lg:fixed max-lg:top-0 max-lg:z-20 max-lg:bg-white`}>
@@ -79,7 +79,7 @@ const Navsection = () => {
                                 </div>
 
                         </div>
-                </div>
+                </>
         )
 }
 

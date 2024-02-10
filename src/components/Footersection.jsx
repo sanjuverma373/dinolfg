@@ -77,7 +77,7 @@ const Footersection = () => {
                                 <img src={footerbg} alt="FooterForest" className='absolute 2xl:bottom-[-5%] bottom-0 left-0 right-0 w-full' />
                         </div>
                         <img className=' absolute top-[-23px] w-full' src={layerb} alt="#" />
-                        <img className=' absolute bottom-1 right-[9%] animate-flip lg:max-w-[211px] sm:max-w-[140px] max-w-[50px]' src={footerd} alt="" />
+                        <img className=' absolute bottom-1 right-[9%] animate-flip lg:max-w-[211px] sm:max-w-[140px] max-w-[50px]' src={footerd} alt="footer" />
                 </div>
         )
 }

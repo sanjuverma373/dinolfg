@@ -9,7 +9,7 @@ import TokenDino from '../assets/webps/tok-tree-2.webp';
 
 const Tokenomics = () => {
   return (
-    <div>
+    <>
       <div id="tokenomic" className="relative bg-[#0A4740]">
                 <img src={tokshadow} alt="TokenomicsLayer" className="max-w-[400px] absolute right-0 top-[16%] " />
                 <img src={toklayer} alt="TreeLayer" className=" absolute w-full left-0 right-0 bottom-0 " />
@@ -64,7 +64,7 @@ const Tokenomics = () => {
                                     </div>
                                 </div>
                                 <div className="flex sm:gap-[32px] gap-[20px]">
-                                    <div><div className="w-[34px] h-[34px] border border-solid border-white rounded-md bg-[#23AAAC]"></div></div>
+                                    <div className="w-[34px] h-[34px] border border-solid border-white rounded-md bg-[#23AAAC]"></div>
                                     <div className="flex flex-col gap-[5px]">
                                         <div className="flex flex-row flex-wrap gap-[5px]">
                                             <p className="text-[#23AAAC] leading-[119%] sm:text-[32px] text-[25px] font-normal font-Balsamiq"> 95% Uniswa </p>
@@ -97,7 +97,7 @@ const Tokenomics = () => {
                 </div>
                 <img src={TokenDino} alt="TokenDino" className="xl:max-w-[280px] lg:max-w-[200px] sm:max-w-[150px] max-w-[100px] w-full absolute bottom-0 left-0 " />
             </div>
-    </div>
+    </>
   )
 }
 

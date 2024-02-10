@@ -19,7 +19,7 @@ const Backtop = () => {
                 }
         });
         return (
-                <div>
+                <>
                         <button className={`back-to-top ${isVisible ? 'visible' : ''} fixed bottom-[14px] right-[14px] z-[100]`}
                                 onClick={scrollToTop}
                                 style={{ display: isVisible ? 'block' : 'none', }} >
@@ -27,7 +27,7 @@ const Backtop = () => {
                                         <img src={backtop} alt="#" />
                                 </div>
                         </button>
-                </div>
+                </>
         )
 }
 
