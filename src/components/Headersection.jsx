@@ -7,7 +7,7 @@ import cycled from '../assets/webps/cycle-d.webp'
 
 const Headersection = () => {
   return (
-    <div className=' overflow-hidden bg-[url(./assets/webps/bgheaderimg.webp)] lg:bg-full bg-cover bg-center bg-repeat xl:min-h-screen sm:h-[730px] md:h-[874px] lg:h-[810px] h-[660px] relative z-[1]'>
+    <div className=' overflow-hidden bg-[url(./assets/webps/bgheaderimg.webp)] lg:bg-full bg-cover bg-center bg-repeat xl:min-h-screen sm:h-[730px] md:h-[874px] lg:h-[810px] h-[660px] relative z-50'>
       <Navsection/>
       <div className=' max-w-[935px] px-3 mx-auto w-full'>
         <img className=' object-cover absolute bottom-[6%] right-[10%] lg:max-w-[211px] sm:max-w-[140px] max-w-[100px]  animate-flip w-full z-10 ' src={acycled} alt="#" />
