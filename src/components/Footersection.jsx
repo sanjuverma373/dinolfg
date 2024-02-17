@@ -69,8 +69,8 @@ const Footersection = () => {
                                         </h2>
                                         <p className='text-[14px] font-normal font-Balsamiq text-center text-white max-w-[376px] leading-[122%]'>Sed tempus pretium est, vestibulum dapibus mauris viverra id. Curabitur feugiat porta lorem,  </p>
                                         <div className='flex items-center justify-center gap-2'>
-                                                <a className=' hover:-translate-y-1  duration-300 rounded-full hover:shadow-[0px_0px_12px_4px_rgba(223,232,229,0.36)]' href="https://www.instagram.com/" target='_blank'><Fttwitter /></a>
-                                                <a className=' hover:-translate-y-1  duration-300 rounded-full hover:shadow-[0px_0px_12px_4px_rgba(223,232,229,0.36)]' href="https://www.instagram.com/" target='_blank'><Ftdiscord /></a>
+                                                <a className=' hover:-translate-y-1  duration-300 rounded-full hover:shadow-[0px_0px_12px_4px_rgba(223,232,229,0.36)]' href="https://twitter.com/" target='_blank'><Fttwitter /></a>
+                                                <a className=' hover:-translate-y-1  duration-300 rounded-full hover:shadow-[0px_0px_12px_4px_rgba(223,232,229,0.36)]' href="https://discord.com/" target='_blank'><Ftdiscord /></a>
                                                 <a className=' hover:-translate-y-1 duration-300 rounded-full hover:shadow-[0px_0px_12px_4px_rgba(223,232,229,0.36)]' href="https://www.instagram.com/" target='_blank'><Ftinsta /></a>
                                         </div>
                                 </div>

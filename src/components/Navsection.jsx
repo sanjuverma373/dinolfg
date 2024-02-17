@@ -28,15 +28,15 @@ const Navsection = () => {
                                                         <li onClick={() => setfirst(false)} className='cursor-pointer transition after:duration-500 after:w-0 hover:after:w-full hover:after:left-0 after:absolute relative after:right-0 after:-bottom-[1px] after:rounded-xl after:h-[2px] after:bg-black font-Chewy font-normal text-[18px] leading-[23.52px]'><a className='' href="#faq">FAQ</a></li>
                                                         <li className=' block md:hidden'><span className='  flex flex-col items-center'>
                                                                 <span className=' flex items-center gap-2'>
-                                                                        <span className=' hover:-translate-y-1 duration-300  hover:shadow-[0px_0px_12px_4px_rgba(30,31,31,0.36)] cursor-pointer border border-black w-[37px] h-[37px] rounded-full flex items-center justify-center'>
+                                                                        <a className=' hover:-translate-y-1 duration-300  hover:shadow-[0px_0px_12px_4px_rgba(30,31,31,0.36)] cursor-pointer border border-black w-[37px] h-[37px] rounded-full flex items-center justify-center' href="https://twitter.com/" target='_blank'>
                                                                                 <Twitter />
-                                                                        </span>
-                                                                        <span className='hover:-translate-y-1 duration-300  hover:shadow-[0px_0px_12px_4px_rgba(30,31,31,0.36)] cursor-pointer border border-black w-[37px] h-[37px] rounded-full flex items-center justify-center'>
+                                                                        </a>
+                                                                        <a href="https://discord.com/" target='_blank'>
                                                                                 <Discord />
-                                                                        </span>
-                                                                        <span className='hover:-translate-y-1 duration-300  hover:shadow-[0px_0px_12px_4px_rgba(30,31,31,0.36)] cursor-pointer border border-black w-[37px] h-[37px] rounded-full flex items-center justify-center mr-[13px]'>
+                                                                        </a>
+                                                                        <a href="https://www.instagram.com/" target='_blank'>
                                                                                 <Insta />
-                                                                        </span>
+                                                                        </a>
                                                                 </span>
                                                                 <span className='bg-[url(./assets//webps/nav-btn-bg.webp)] bg-no-repeat bg-cover bg-center w-[138px] h-[54.57px] flex items-center justify-center cursor-pointer group mt-7 duration-300 hover:scale-95 '>
                                                                         <h2 className=' font-Chewy pb-[10px] text-[18px] font-normal leading-[23px] group-hover:text-white duration-300 '>Join Now</h2>
@@ -46,15 +46,15 @@ const Navsection = () => {
                                                 <div className=' hidden md:block'>
                                                         <div className=' flex items-center'>
                                                                 <div className=' flex items-center gap-2'>
-                                                                        <span className=' hover:-translate-y-1 duration-300  hover:shadow-[0px_0px_12px_4px_rgba(30,31,31,0.36)] cursor-pointer border border-black w-[37px] h-[37px] rounded-full flex items-center justify-center'>
+                                                                        <a className=' hover:-translate-y-1 duration-300  hover:shadow-[0px_0px_12px_4px_rgba(30,31,31,0.36)] cursor-pointer border border-black w-[37px] h-[37px] rounded-full flex items-center justify-center' href="https://twitter.com/" target='_blank'>
                                                                                 <Twitter />
-                                                                        </span>
-                                                                        <span className=' hover:-translate-y-1 duration-300  hover:shadow-[0px_0px_12px_4px_rgba(30,31,31,0.36)] cursor-pointer border border-black w-[37px] h-[37px] rounded-full flex items-center justify-center'>
+                                                                        </a>
+                                                                        <a className=' hover:-translate-y-1 duration-300  hover:shadow-[0px_0px_12px_4px_rgba(30,31,31,0.36)] cursor-pointer border border-black w-[37px] h-[37px] rounded-full flex items-center justify-center' href="https://discord.com/" target='_blank'>
                                                                                 <Discord />
-                                                                        </span>
-                                                                        <span className=' hover:-translate-y-1 duration-300  hover:shadow-[0px_0px_12px_4px_rgba(30,31,31,0.36)] cursor-pointer border border-black w-[37px] h-[37px] rounded-full flex items-center justify-center mr-[13px]'>
+                                                                        </a>
+                                                                        <a className=' hover:-translate-y-1 duration-300  hover:shadow-[0px_0px_12px_4px_rgba(30,31,31,0.36)] cursor-pointer border border-black w-[37px] h-[37px] rounded-full flex items-center justify-center' href="https://www.instagram.com/" target='_blank'>
                                                                                 <Insta />
-                                                                        </span>
+                                                                        </a>
                                                                 </div>
                                                                 <div className='bg-[url(./assets//webps/nav-btn-bg.webp)] bg-no-repeat bg-cover bg-center w-[138px] h-[54.57px] flex items-center justify-center cursor-pointer group duration-300 hover:scale-95 '>
                                                                         <h2 className=' font-Chewy pb-[10px] text-[18px] font-normal leading-[23px] group-hover:text-white duration-300 '>Join Now</h2>
