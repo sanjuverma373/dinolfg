@@ -15,9 +15,9 @@ const Aboutdinosection = () => {
                 <div className="relative z-10">
                     <div className='container mx-auto xl:max-w-[1157px] px-3 xl:px-6'>
                         <div data-aos="zoom-in"
-                            data-aos-duration="2000" className='flex items-center justify-center sm:flex-row flex-col sm:gap-[22px] gap-[5px]'>
-                            <h3 data-aos="zoom-in" className=' font-Chewy sm:text-[64px] text-[40px] font-normal text-white leading-[132%]'>About</h3>
-                            <h2 data-aos="zoom-in" className=' font-dino sm:text-[69.669px] text-[50px] mt-1 font-normal text-[#FBA11D] leading-[95%] drop-shadow-[0px_1.337px_0px_#fff]'>
+                            data-aos-duration="2000" className='flex items-center justify-center sm:gap-[22px] gap-[10px]'>
+                            <h3 data-aos="zoom-in" className=' font-Chewy sm:text-[64px] text-[35px] font-normal text-white leading-[132%]'>About</h3>
+                            <h2 data-aos="zoom-in" className=' font-dino sm:text-[69.669px] text-[40px] mt-1 font-normal text-[#FBA11D] leading-[95%] drop-shadow-[0px_1.337px_0px_#fff]'>
                                 D
                                 <span className='text-[#23AAAC]'>i</span>
                                 <span className='text-[#D45B07]'>n</span>

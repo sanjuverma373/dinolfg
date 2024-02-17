@@ -24,7 +24,7 @@ const Tokenomics = () => {
                             <img src={toktreed} alt="TokenomicsCartoon" className="absolute w-full mini-dino lg:top-[-29%] md:top-[-20%] md:left-[39%] top-[-42%] left-[37%] xl:max-w-[133.72px] lg:max-w-[100px] max-w-[80px] animate-flip3" />
                             <div data-aos="zoom-in" className="lg:flex hidden absolute lg:top-[12%] top-[41%] xl:left-[-45%] lg:left-[-61%] left-[-40%] lg:gap-[26.11px] gap-[15px]">
                                 <div className="flex flex-col gap-[5px]">
-                                    <p className="text-[#FBA11D] leading-[119%] lg:text-[32px] text-[23px] font-normal font-Balsamiq">333,333,333</p>
+                                    <p className="text-[#FBA11D] leading-[119%] lg:text-[32px] text-[20px] font-normal font-Balsamiq">333,333,333</p>
                                     <p className="text-white leading-[138%] font-normal text-[24px] text-right font-Balsamiq">Supply </p>
                                 </div>
                                 <div className="border border-solid border-white border-r-0 border-b-0 h-[88px] w-[16px]"></div>
@@ -59,36 +59,36 @@ const Tokenomics = () => {
                                 <div className="flex sm:gap-[32px] gap-[20px]">
                                     <div className="w-[34px] h-[34px] border border-solid border-white rounded-md bg-[#FBA11D]"></div>
                                     <div className="flex flex-col gap-[5px]">
-                                        <p className="text-[#FBA11D] leading-[119%] sm:text-[32px] text-[25px] font-normal font-Balsamiq"> 333,333,333 </p>
-                                        <p className="text-white leading-[138%] font-normal text-[24px] font-Balsamiq"> Supply </p>
+                                        <p className="text-[#FBA11D] leading-[119%] sm:text-[32px] text-[20px] font-normal font-Balsamiq"> 333,333,333 </p>
+                                        <p className="text-white leading-[138%] font-normal text-[20px] font-Balsamiq"> Supply </p>
                                     </div>
                                 </div>
                                 <div className="flex sm:gap-[32px] gap-[20px]">
                                     <div className="w-[34px] h-[34px] border border-solid border-white rounded-md bg-[#23AAAC]"></div>
                                     <div className="flex flex-col gap-[5px]">
                                         <div className="flex flex-row flex-wrap gap-[5px]">
-                                            <p className="text-[#23AAAC] leading-[119%] sm:text-[32px] text-[25px] font-normal font-Balsamiq"> 95% Uniswa </p>
-                                            <p className="text-[#23AAAC] leading-[119%] sm:text-[32px] text-[25px] font-normal font-Balsamiq">5% Marketing</p>
+                                            <p className="text-[#23AAAC] leading-[119%] sm:text-[32px] text-[20px] font-normal font-Balsamiq"> 95% Uniswa </p>
+                                            <p className="text-[#23AAAC] leading-[119%] sm:text-[32px] text-[20px] font-normal font-Balsamiq">5% Marketing</p>
                                         </div>
-                                        <p className="text-white leading-[138%] sm:text-[32px] text-[25px] font-normal font-Balsamiq"> Allocation</p>
+                                        <p className="text-white leading-[138%] sm:text-[32px] text-[20px] font-normal font-Balsamiq"> Allocation</p>
                                     </div>
                                 </div>
                                 <div className="flex sm:gap-[32px] gap-[20px]">
                                     <div className="w-[34px] h-[34px] border border-solid border-white rounded-md bg-[#D45B07]"></div>
                                     <div className="flex flex-col gap-[5px]">
-                                        <p className="text-[#D45B07] leading-[119%] sm:text-[32px] text-[25px] font-normal font-Balsamiq">No Tax </p>
+                                        <p className="text-[#D45B07] leading-[119%] sm:text-[32px] text-[20px] font-normal font-Balsamiq">No Tax </p>
                                     </div>
                                 </div>
                                 <div className="flex sm:gap-[32px] gap-[20px]">
                                     <div className="w-[34px] h-[34px] border border-solid border-white rounded-md bg-[#FB5352]"></div>
                                     <div className="flex flex-col gap-[5px]">
-                                        <p className="text-[#FB5352] leading-[119%] sm:text-[32px] text-[25px] font-normal font-Balsamiq">No Mint Function </p>
+                                        <p className="text-[#FB5352] leading-[119%] sm:text-[32px] text-[20px] font-normal font-Balsamiq">No Mint Function </p>
                                     </div>
                                 </div>
                                 <div className="flex sm:gap-[32px] gap-[20px]">
                                     <div className="w-[34px] h-[34px] border border-solid border-white rounded-md bg-[#8EC627]"></div>
                                     <div className="flex flex-col gap-[5px]">
-                                        <p className="text-[#8EC627] leading-[119%] sm:text-[32px] text-[25px] font-normal font-Balsamiq">Liquidity lock for 1 year</p>
+                                        <p className="text-[#8EC627] leading-[119%] sm:text-[32px] text-[20px] font-normal font-Balsamiq">Liquidity lock for 1 year</p>
                                     </div>
                                 </div>
                             </div>

@@ -40,10 +40,10 @@ const Footersection = () => {
         return (
                 <div id='faq' className=' bg-[#0A4740] relative'>
                         <div className="max-w-[970px] px-3 mx-auto pt-[80px] sm:pt-[100px] md:pt-[170px] lg:pt-[298px]">
-                        <h2 className='sm:text-[64px] text-[40px] leading-[132%] text-center font-normal font-Chewy text-white lg:mb-[61px] mb-[35px]'>FAQs</h2>
+                        <h2 className='sm:text-[64px] text-[35px] leading-[132%] text-center font-normal font-Chewy text-white lg:mb-[61px] mb-[35px]'>FAQs</h2>
                                 <div className="accordion">
                                         {accordionData.map((item, index) => (
-                                                <div className="accordion-item py-[22px] pr-[20px] sm:pr-[53px] pl-[26px] bg-[#09655A]" key={index}>
+                                                <div className="accordion-item py-[22px] pr-[20px] sm:pr-[53px] pl-[20px] sm:pl-[53px] bg-[#09655A]" key={index}>
                                                         <div onClick={() => toggleAccordion(index)} className="flex justify-between items-center">
                                                                 <div className="accordion-title font-Balsamiq text-[13px] sm:text-[16px] md:text-[20px] text-start font-bold text-white w-full justify-between" >{item.title}</div>
                                                                 <p className="text-white font-sans text-4xl cursor-pointer bg-white w-[30px] sm:w-[39px] h-[26px] sm:h-[37px] rounded-full flex items-center justify-center">{openAccordion === index ? (<Arrow2/>) :(<Arrow1/>)  }</p>
@@ -74,9 +74,9 @@ const Footersection = () => {
                                                 <a className=' hover:-translate-y-1 duration-300 rounded-full hover:shadow-[0px_0px_12px_4px_rgba(223,232,229,0.36)]' href="https://www.instagram.com/" target='_blank'><Ftinsta /></a>
                                         </div>
                                 </div>
-                                <img src={footerbg} alt="FooterForest" className='absolute 2xl:bottom-[-5%] bottom-0 left-0 right-0 w-full' />
+                                <img src={footerbg} alt="FooterForest" className='absolute 2xl:bottom-[-5%] bottom-0 left-0 right-0 w-full h-full' />
                         </div>
-                        <img className=' absolute top-[-23px] w-full' src={layerb} alt="#" />
+                        <img className=' absolute top-[-23px] w-full ' src={layerb} alt="#" />
                         <img className=' absolute bottom-1 right-[9%] animate-flip lg:max-w-[211px] sm:max-w-[140px] max-w-[50px]' src={footerd} alt="footer" />
                 </div>
         )
