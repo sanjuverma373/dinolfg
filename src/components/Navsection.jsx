@@ -52,7 +52,7 @@ const Navsection = () => {
                                                                         <a className=' hover:-translate-y-1 duration-300  hover:shadow-[0px_0px_12px_4px_rgba(30,31,31,0.36)] cursor-pointer border border-black w-[37px] h-[37px] rounded-full flex items-center justify-center' href="https://discord.com/" target='_blank'>
                                                                                 <Discord />
                                                                         </a>
-                                                                        <a className=' hover:-translate-y-1 duration-300  hover:shadow-[0px_0px_12px_4px_rgba(30,31,31,0.36)] cursor-pointer border border-black w-[37px] h-[37px] rounded-full flex items-center justify-center' href="https://www.instagram.com/" target='_blank'>
+                                                                        <a className=' hover:-translate-y-1 duration-300  hover:shadow-[0px_0px_12px_4px_rgba(30,31,31,0.36)] cursor-pointer border border-black w-[37px] h-[37px] rounded-full flex items-center justify-center mr-[13px]' href="https://www.instagram.com/" target='_blank'>
                                                                                 <Insta />
                                                                         </a>
                                                                 </div>
